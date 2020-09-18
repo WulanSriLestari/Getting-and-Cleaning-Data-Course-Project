@@ -23,6 +23,7 @@ From the data set in step 4, creates a second, independent tidy data set with th
 This file 'run_analysis.R' contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.
 
 Analysis File Description
+
 The run_analysis.R can be run as long as setting your working directory to the UCI HAR Dataset folder. Dplyr package was required to run this script.
 
 Analysis will read all the test data and train data merge them into one data set. Each variables were names accordingly based on the features listed in the features.txt file.
